@@ -1,13 +1,13 @@
-path: ../datasets
-train: images/train
-val: images/valid
-test: images/test
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 12
 names: ['Gir', 'Sahiwal', 'Red Sindhi', 'Tharparkar', 'Kankrej', 'Ongole', 'Hariana', 'Kangayam', 'Deoni', 'Amritmahal', 'Hallikar', 'Murrah']
 
 roboflow:
-  workspace: indian-cattle-breeds
-  project: indian-cattle-breeds
+  workspace: object-detection-naauz
+  project: cow-buffalo
   version: 1
   license: CC BY 4.0
+  url: https://github.com/sundram6452/Image-based-breed-recognition-for-cattle-and-buffaloes-of-India/tree/main/dataset
