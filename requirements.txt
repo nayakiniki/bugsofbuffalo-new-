@@ -1,8 +1,8 @@
-streamlit==1.28.0
-ultralytics==8.0.186
-pillow==10.0.0
-python-dotenv==1.0.0
-opencv-python==4.8.1.78
+ultralytics==8.0.196
+streamlit==1.28.1
+opencv-python-headless==4.8.1.78
+torch==2.0.1
+torchvision==0.15.2
 numpy==1.24.3
+Pillow==10.0.0
 requests==2.31.0
-openai==0.28.0
