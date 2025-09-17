@@ -83,7 +83,7 @@ st.write("Upload an image to detect specific Indian breeds and get expert advice
 # API key input
 api_key = st.sidebar.text_input("Enter your OpenRouter API key", type="password")
 if not api_key:
-   api_key = os.getenv("OPENROUTER_API_KEY", "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")
+    st.sidebar.warning("Please enter your OpenRouter API key to use the chatbot")
 
 # Language selection
 selected_lang = st.sidebar.selectbox("Choose Language", list(LANGUAGES.keys()))
@@ -176,4 +176,5 @@ if st.session_state.chat_history:
     for i, chat in enumerate(reversed(st.session_state.chat_history)):
         with st.expander(f"Q: {chat['question']}"):
             st.write(f"**A:** {chat['answer']}")
+
 
