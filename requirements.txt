@@ -1,11 +1,11 @@
-ultralytics==8.3.60         # latest stable with Py3.13 support
+ultralytics==8.0.196
 streamlit==1.28.1
-opencv-python-headless==4.10.0.84
-torch==2.5.1
-torchvision==0.20.1
-numpy==1.26.4
-Pillow==10.4.0
-requests==2.32.3
-openai==1.43.0
-python-dotenv==1.0.1
+opencv-python-headless==4.8.1.78
+torch==2.0.1
+torchvision==0.15.2
+numpy==1.24.3
+Pillow==10.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+
 
