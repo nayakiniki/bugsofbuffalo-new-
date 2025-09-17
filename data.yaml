@@ -1,0 +1,13 @@
+path: ../datasets
+train: images/train
+val: images/valid
+test: images/test
+
+nc: 12
+names: ['Gir', 'Sahiwal', 'Red Sindhi', 'Tharparkar', 'Kankrej', 'Ongole', 'Hariana', 'Kangayam', 'Deoni', 'Amritmahal', 'Hallikar', 'Murrah']
+
+roboflow:
+  workspace: indian-cattle-breeds
+  project: indian-cattle-breeds
+  version: 1
+  license: CC BY 4.0
